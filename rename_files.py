@@ -17,7 +17,7 @@ def main_rename():
   for path in file_paths:
     new_filename = prefix + "-" + path.stem + path.suffix
       
-    #  point to existing path with .with_name()
+    #  point to correct path ("files/..") with .with_name()
     new_filepath = path.with_name(new_filename)
       
     #Path.rename(target): Rename this file or directory to the given target, and return a new Path instance pointing to target
