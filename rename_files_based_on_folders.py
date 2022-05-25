@@ -18,5 +18,16 @@ def main_rename_folder():
       #print(file.name)
   '''
 
-
+# second option 
+  root_dir = Path("folders")
+  # “**” means “this directory and all subdirectories, recursively”
+  file_path = root_dir.glob("**/*")
+  for path in file_path:
+    if path.is_file():
+      #print(path)
+      #access the individual “parts” (components) of the path by using .parts()
+      parent_folder = path.parts[-2]
+      new_filename = f'{parent_folder}-{path.name}'
+      print(new_filename)
+ 
     
