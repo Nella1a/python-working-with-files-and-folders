@@ -28,9 +28,9 @@ def main_rename_folder():
       #access the individual “parts” (components) of the path by using .parts()
       parent_folder = path.parts[-2]
       new_filename = f'{parent_folder}-{path.name}'
-      print(new_filename)
+      #print(new_filename)
       new_filepath = path.with_name(new_filename)
-      print(new_filepath)
+      #print(new_filepath)
       path.rename(new_filepath)
  
     
