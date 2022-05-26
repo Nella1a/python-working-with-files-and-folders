@@ -5,6 +5,7 @@ from exercise_rename_files import main_exercise_rename
 from add_created_date_to_filename import main_created_date
 from change_file_extension import main_change_extension
 from create_empty_files import main_empty_files
+from archive_files_in_folder import main_archive_files
 
 # main_pathlib()
 # main_rename()
@@ -12,4 +13,5 @@ from create_empty_files import main_empty_files
 #main_exercise_rename()
 # main_created_date()
 #main_change_extension()
-main_empty_files()
+#main_empty_files()
+main_archive_files()
