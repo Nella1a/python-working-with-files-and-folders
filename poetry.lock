@@ -41,7 +41,7 @@ pycparser = "*"
 
 [[package]]
 name = "cryptography"
-version = "37.0.2"
+version = "38.0.3"
 description = "cryptography is a package which provides cryptographic recipes and primitives to Python developers."
 category = "main"
 optional = false
